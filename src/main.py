@@ -1,16 +1,23 @@
-import server.events
-import server.engine
-import server.state
+import argparse
+import server.cli
+import client.cli
+
+
+def main():
+    parser = argparse.ArgumentParser()
+
+    subparsers = parser.add_subparsers(dest="command")
+    server.cli.attach_subparser(subparsers)
+    client.cli.attach_subparser(subparsers)
+
+    parser.set_defaults(command="client")
+    args = parser.parse_args()
+
+    if "func" in args:
+        args.func(args)
+    else:
+        parser.print_help()
+
 
 if __name__ == "__main__":
-    # Initialize
-    event_manager = server.events.EventManager()
-    game_engine = server.engine.GameEngine()
-    state_manager = server.state.StateManager()
-
-    # Dependency injection
-    event_manager.register_services(state_manager)
-    game_engine.register_services(event_manager)
-
-    # Start
-    game_engine.start()
+    main()

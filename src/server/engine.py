@@ -1,7 +1,7 @@
 from server.events import EventManager
 
 
-class GameEngine:
+class GameManager:
     events: EventManager
 
     is_running = True
@@ -12,7 +12,7 @@ class GameEngine:
     ):
         self.events = event_manager
 
-    def start(self):
+    def handle_command(self):
         command_actions = {
             "examine": self.events.examine,
             "push": self.events.push,
