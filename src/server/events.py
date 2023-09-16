@@ -1,4 +1,4 @@
-from services.state import StateManager
+from server.state import StateManager
 
 
 class EventManager:
@@ -22,7 +22,9 @@ class EventManager:
         self.state.inventory.remove("item")
 
     def go(self, direction):
-        new_location = self.state.game_map.get(self.state.player.location, {}).get(direction)
+        new_location = self.state.game_map.get(self.state.player.location, {}).get(
+            direction
+        )
 
         if new_location:
             print(f"You go {direction} to {new_location}.")

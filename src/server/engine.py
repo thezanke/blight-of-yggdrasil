@@ -1,4 +1,4 @@
-from services.events import EventManager
+from server.events import EventManager
 
 
 class GameEngine:
