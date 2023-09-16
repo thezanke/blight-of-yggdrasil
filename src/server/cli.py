@@ -6,9 +6,6 @@ from server.net import ServerConnectionManager
 
 
 def start_server(args):
-    print(f"Starting server!")
-    print(f"args: {args}")
-
     # Initialize
     event_manager = EventManager()
     game_manager = GameManager()
