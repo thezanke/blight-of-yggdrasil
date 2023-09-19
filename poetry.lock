@@ -530,7 +530,7 @@ zstd = ["zstandard (>=0.18.0)"]
 name = "windows-curses"
 version = "2.3.1"
 description = "Support for the standard curses module on Windows"
-optional = false
+optional = true
 python-versions = "*"
 files = [
     {file = "windows_curses-2.3.1-cp310-cp310-win32.whl", hash = "sha256:2644f4547ae5124ce5129b66faa59ee0995b7b7205ed5e3920f6ecfef2e46275"},
@@ -637,4 +637,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "a782b0bc65d553498b171716d50f6215579957a206f3987db4897a8b67d8bd95"
+content-hash = "08402977c2fdb9fd49db4c08d8335c65263a3a3684aac18b721e1eb38d9d39c3"
