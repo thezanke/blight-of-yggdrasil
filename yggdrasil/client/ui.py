@@ -1,5 +1,6 @@
 from aioconsole import ainput
 
+
 class UiManager:
     def register_services(self, conn_manager):
         self.conn_manager = conn_manager

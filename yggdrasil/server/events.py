@@ -1,4 +1,4 @@
-from server.state import StateManager
+from yggdrasil.server.state import StateManager
 
 
 class EventManager:

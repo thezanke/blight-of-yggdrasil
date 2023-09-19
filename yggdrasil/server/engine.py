@@ -1,4 +1,4 @@
-from server.events import EventManager
+from yggdrasil.server.events import EventManager
 
 
 class GameManager:

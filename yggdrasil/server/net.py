@@ -1,6 +1,6 @@
 import asyncio
 
-from server.engine import GameManager
+from yggdrasil.server.engine import GameManager
 
 
 class ServerConnectionProtocol(asyncio.Protocol):
@@ -8,7 +8,7 @@ class ServerConnectionProtocol(asyncio.Protocol):
 
     def __init__(self, connection_manager):
         self.connection_manager = connection_manager
-        
+
     def connection_made(self, transport):
         self.transport = transport
         self.connection_manager.connection_made(transport)
@@ -32,7 +32,7 @@ class ServerConnectionManager:
             hostname,
             port,
         )
-        
+
         print(f'message="server started", hostname="{hostname}", port={port}')
 
         async with server:
@@ -42,7 +42,9 @@ class ServerConnectionManager:
         print(f'message="data received", data="{data.decode()}"')
 
     def connection_made(self, transport):
-        print(f'message="connection", peername="{transport.get_extra_info("peername")}"')
+        print(
+            f'message="connection", peername="{transport.get_extra_info("peername")}"'
+        )
 
     def connection_lost(self, transport, exc):
         print(

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-text-adventure"
+name = "yggdrasil"
 version = "0.1.0"
 description = ""
 authors = ["Alex Howard <thezanke@gmail.com>"]
@@ -16,3 +16,7 @@ aioconsole = "^0.6.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+yggdrasil = "yggdrasil.__main__:main"

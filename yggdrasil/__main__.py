@@ -1,14 +1,14 @@
 import argparse
-import server.cli
-import client.cli
+import yggdrasil.server.cli
+import yggdrasil.client.cli
 
 
 def main():
     parser = argparse.ArgumentParser()
 
     subparsers = parser.add_subparsers(dest="command")
-    server.cli.attach_subparser(subparsers)
-    client.cli.attach_subparser(subparsers)
+    yggdrasil.server.cli.attach_subparser(subparsers)
+    yggdrasil.client.cli.attach_subparser(subparsers)
 
     parser.set_defaults(command="client")
     args = parser.parse_args()

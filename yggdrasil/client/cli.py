@@ -1,6 +1,6 @@
 import asyncio
-from client.net import ClientConnectionManager
-from client.ui import UiManager
+from yggdrasil.client.net import ClientConnectionManager
+from yggdrasil.client.ui import UiManager
 
 
 async def run_all(args):

@@ -1,8 +1,8 @@
 import asyncio
-from server.events import EventManager
-from server.engine import GameManager
-from server.state import StateManager
-from server.net import ServerConnectionManager
+from yggdrasil.server.events import EventManager
+from yggdrasil.server.engine import GameManager
+from yggdrasil.server.state import StateManager
+from yggdrasil.server.net import ServerConnectionManager
 
 
 def start_server(args):
