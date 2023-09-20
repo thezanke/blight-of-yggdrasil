@@ -1,6 +1,8 @@
 import asyncio
-
+import logging
 from yggdrasil.server.engine import GameManager
+
+logger = logging.getLogger(__name__)
 
 
 class ServerConnectionProtocol(asyncio.Protocol):
@@ -33,20 +35,23 @@ class ServerConnectionManager:
             port,
         )
 
-        print(f'message="server started", hostname="{hostname}", port={port}')
+        logger.info('message="server started", hostname="%s", port=%d', hostname, port)
 
         async with server:
             await server.serve_forever()
 
     def data_received(self, data):
-        print(f'message="data received", data="{data.decode()}"')
+        decoded = data.decode()
+        logger.info('message="data received", data="%s"', logging.StringTemplateStyle(decoded))
 
     def connection_made(self, transport):
-        print(
-            f'message="connection", peername="{transport.get_extra_info("peername")}"'
+        logger.info(
+            'message="connection", peername="%s"', transport.get_extra_info("peername")
         )
 
     def connection_lost(self, transport, exc):
-        print(
-            f'message="connection closed", peername="{transport.get_extra_info("peername")}", exception="{exc}"'
+        logger.info(
+            'message="connection closed", peername="%s", exception="%s"',
+            transport.get_extra_info("peername"),
+            exc,
         )

@@ -1,6 +1,7 @@
 import asyncio
 from yggdrasil.client.net import ClientConnectionManager
 from yggdrasil.client.ui import UiManager
+from yggdrasil.logging import add_log_level_arg
 
 
 async def run_all(args):
@@ -22,5 +23,6 @@ def attach_subparser(base):
     parser.set_defaults(func=start_play)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", default=12529)
+    add_log_level_arg(parser)
 
     return parser

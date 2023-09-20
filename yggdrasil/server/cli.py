@@ -1,4 +1,5 @@
 import asyncio
+from yggdrasil.logging import add_log_level_arg
 from yggdrasil.server.events import EventManager
 from yggdrasil.server.engine import GameManager
 from yggdrasil.server.state import StateManager
@@ -24,5 +25,6 @@ def start_server(args):
 def attach_subparser(base):
     parser = base.add_parser("server")
     parser.set_defaults(func=start_server)
+    add_log_level_arg(parser)
 
     return parser
