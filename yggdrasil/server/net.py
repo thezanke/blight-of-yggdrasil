@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import json
 from yggdrasil.server.engine import GameManager
 
 logger = logging.getLogger(__name__)
@@ -42,7 +43,7 @@ class ServerConnectionManager:
 
     def data_received(self, data):
         decoded = data.decode()
-        logger.info('message="data received", data="%s"', logging.StringTemplateStyle(decoded))
+        logger.info('message="data received", data=%s', json.dumps(decoded))
 
     def connection_made(self, transport):
         logger.info(
