@@ -1,7 +1,7 @@
 import argparse
 import logging
-import yggdrasil.server.cli
-import yggdrasil.client.cli
+import blight.server.cli
+import blight.client.cli
 
 
 def configure_logging(args):
@@ -17,8 +17,8 @@ def main():
     parser.set_defaults(command="client")
 
     subparsers = parser.add_subparsers(dest="command")
-    yggdrasil.server.cli.attach_subparser(subparsers)
-    yggdrasil.client.cli.attach_subparser(subparsers)
+    blight.server.cli.attach_subparser(subparsers)
+    blight.client.cli.attach_subparser(subparsers)
 
     args = parser.parse_args()
     configure_logging(args)

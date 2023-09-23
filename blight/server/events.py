@@ -1,4 +1,4 @@
-from yggdrasil.server.state import StateManager
+from blight.server.state import StateManager
 
 
 class EventManager:

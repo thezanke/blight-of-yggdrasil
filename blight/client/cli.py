@@ -1,7 +1,7 @@
 import asyncio
-from yggdrasil.client.net import ClientConnectionManager
-from yggdrasil.client.ui import UiManager
-from yggdrasil.logging import add_log_level_arg
+from blight.client.net import ClientConnectionManager
+from blight.client.ui import UiManager
+from blight.logging import add_log_level_arg
 
 
 async def run_all(args):

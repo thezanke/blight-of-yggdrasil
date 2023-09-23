@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "yggdrasil"
+name = "blight"
 version = "0.1.0"
 description = ""
 authors = ["Alex Howard <thezanke@gmail.com>"]
@@ -19,4 +19,4 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-yggdrasil = "yggdrasil.__main__:main"
+blight = "blight.__main__:main"

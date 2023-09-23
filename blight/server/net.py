@@ -1,7 +1,7 @@
 import asyncio
 import logging
 import json
-from yggdrasil.server.engine import GameManager
+from blight.server.engine import GameManager
 
 logger = logging.getLogger(__name__)
 

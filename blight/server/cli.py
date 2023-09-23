@@ -1,9 +1,9 @@
 import asyncio
-from yggdrasil.logging import add_log_level_arg
-from yggdrasil.server.events import EventManager
-from yggdrasil.server.engine import GameManager
-from yggdrasil.server.state import StateManager
-from yggdrasil.server.net import ServerConnectionManager
+from blight.logging import add_log_level_arg
+from blight.server.events import EventManager
+from blight.server.engine import GameManager
+from blight.server.state import StateManager
+from blight.server.net import ServerConnectionManager
 
 
 def start_server(args):

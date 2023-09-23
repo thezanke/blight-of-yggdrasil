@@ -1,4 +1,4 @@
-from yggdrasil.server.events import EventManager
+from blight.server.events import EventManager
 
 
 class GameManager:
