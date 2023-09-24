@@ -2,38 +2,14 @@
   "id" : 1,
   "name" : "Blight of Yggdrasil",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-24T15:53:16Z",
+  "lastModifiedDate" : "2023-09-24T15:55:51Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJCbGlnaHQgb2YgWWdnZHJhc2lsIiB7CgogICAgbW9kZWwgewogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCgogICAgICAgIGdhbWVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQmxpZ2h0IG9mIFlnZ2RyYXNpbCIgewogICAgICAgICAgICBjbGlFbnRyeXBvaW50ID0gY29udGFpbmVyICJDTEkgRW50cnlwb2ludCIgIkVudHJ5cG9pbnQgdG8gYm90aCB0aGUgc2VydmVyIGFuZCBnYW1lIGNsaWVudCBjb21tYW5kcyIKICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24gPSBjb250YWluZXIgIkdhbWUgQ2xpZW50IEFwcGxpY2F0aW9uIiAiQWxsb3dzIHRoZSBwbGF5ZXIgdG8gY29ubmVjdCB0byBhIHNlcnZlciBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSIKICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNlcnZlciBBcHBsaWNhdGlvbiIgIlJ1bnMgYSBzZXJ2ZXIgdGhhdCBhbGxvd3MgcGxheWVycyB0byBjb25uZWN0IGFuZCBwbGF5IHRoZSBnYW1lIgogICAgICAgIH0KCiAgICAgICAgY2xpRW50cnlwb2ludCAtPiBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgIGNsaUVudHJ5cG9pbnQgLT4gc2VydmVyQXBwbGljYXRpb24KCiAgICAgICAgcGxheWVyIC0+IGNsaUVudHJ5cG9pbnQgIlJ1bnMgZ2FtZSBjbGllbnQgdXNpbmciCiAgICAgICAgaG9zdCAtPiBjbGlFbnRyeXBvaW50ICJSdW5zIGdhbWUgc2VydmVyIHVzaW5nIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWVTeXN0ZW0gIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBnYW1lU3lzdGVtCiAgICAgICAgICAgICAgICBwbGF5ZXIKICAgICAgICAgICAgICAgIGhvc3QKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIHByb3BlcnRpZXMgewogICAgICAgICAgICAgICAgc3RydWN0dXJpenIuZ3JvdXBzIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBnYW1lU3lzdGVtICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcGxheWVyIGhvc3QgZ2FtZVN5c3RlbQogICAgICAgICAgICAgICAgY2xpRW50cnlwb2ludAogICAgICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24KICAgICAgICAgICAgICAgIHNlcnZlckFwcGxpY2F0aW9uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgcGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
+    "structurizr.dsl" : "d29ya3NwYWNlICJCbGlnaHQgb2YgWWdnZHJhc2lsIiB7CgogICAgbW9kZWwgewogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCgogICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJCbGlnaHQgb2YgWWdnZHJhc2lsIENMSSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICBjbGlFbnRyeXBvaW50ID0gY29udGFpbmVyICJDTEkgRW50cnlwb2ludCIgIkVudHJ5cG9pbnQgdG8gYm90aCB0aGUgc2VydmVyIGFuZCBnYW1lIGNsaWVudCBjb21tYW5kcyIKICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24gPSBjb250YWluZXIgIkdhbWUgQ2xpZW50IEFwcGxpY2F0aW9uIiAiQWxsb3dzIHRoZSBwbGF5ZXIgdG8gY29ubmVjdCB0byBhIHNlcnZlciBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSIKICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNlcnZlciBBcHBsaWNhdGlvbiIgIlJ1bnMgYSBzZXJ2ZXIgdGhhdCBhbGxvd3MgcGxheWVycyB0byBjb25uZWN0IGFuZCBwbGF5IHRoZSBnYW1lIgogICAgICAgIH0KCiAgICAgICAgY2xpRW50cnlwb2ludCAtPiBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgIGNsaUVudHJ5cG9pbnQgLT4gc2VydmVyQXBwbGljYXRpb24KCiAgICAgICAgcGxheWVyIC0+IGNsaUVudHJ5cG9pbnQgIlJ1bnMgZ2FtZSBjbGllbnQgdXNpbmciCiAgICAgICAgaG9zdCAtPiBjbGlFbnRyeXBvaW50ICJSdW5zIGdhbWUgc2VydmVyIHVzaW5nIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWVDbGlBcHBsaWNhdGlvbiAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgcGxheWVyCiAgICAgICAgICAgICAgICBob3N0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgIHN0cnVjdHVyaXpyLmdyb3VwcyBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZ2FtZUNsaUFwcGxpY2F0aW9uICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcGxheWVyIGhvc3QgZ2FtZUNsaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICBjbGlFbnRyeXBvaW50CiAgICAgICAgICAgICAgICBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24KICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "2",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "host"
-      },
-      "name" : "Host",
-      "relationships" : [ {
-        "id" : "11",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "70fa14f5-2a97-4532-a6c6-db608b14aac1"
-        },
-        "sourceId" : "2",
-        "destinationId" : "4",
-        "description" : "Runs game server using"
-      }, {
-        "id" : "12",
-        "sourceId" : "2",
-        "destinationId" : "3",
-        "description" : "Runs game server using",
-        "linkedRelationshipId" : "11"
-      } ],
-      "location" : "Unspecified"
-    }, {
       "id" : "1",
       "tags" : "Element,Person",
       "properties" : {
@@ -44,7 +20,7 @@
         "id" : "9",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "61c81650-50b6-4681-a7ad-3f45a07aaeb4"
+          "structurizr.dsl.identifier" : "cc301514-5218-4aae-bb8f-7e1156c80f8c"
         },
         "sourceId" : "1",
         "destinationId" : "4",
@@ -57,40 +33,47 @@
         "linkedRelationshipId" : "9"
       } ],
       "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "host"
+      },
+      "name" : "Host",
+      "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "89bf3155-7ba7-494b-921e-fe847bdfcc1b"
+        },
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Runs game server using"
+      }, {
+        "id" : "12",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Runs game server using",
+        "linkedRelationshipId" : "11"
+      } ],
+      "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
       "id" : "3",
       "tags" : "Element,Software System",
       "properties" : {
-        "structurizr.dsl.identifier" : "gamesystem"
+        "structurizr.dsl.identifier" : "gamecliapplication"
       },
-      "name" : "Blight of Yggdrasil",
+      "name" : "Blight of Yggdrasil CLI Application",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "4",
+        "id" : "6",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "clientrypoint"
+          "structurizr.dsl.identifier" : "serverapplication"
         },
-        "name" : "CLI Entrypoint",
-        "description" : "Entrypoint to both the server and game client commands",
-        "relationships" : [ {
-          "id" : "8",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "0330406b-317c-49f2-8ca3-723d6046036f"
-          },
-          "sourceId" : "4",
-          "destinationId" : "6"
-        }, {
-          "id" : "7",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "32314dfd-a742-4b23-bb8b-9c1154d26b47"
-          },
-          "sourceId" : "4",
-          "destinationId" : "5"
-        } ],
+        "name" : "Server Application",
+        "description" : "Runs a server that allows players to connect and play the game",
         "documentation" : { }
       }, {
         "id" : "5",
@@ -102,13 +85,30 @@
         "description" : "Allows the player to connect to a server and interact with the game",
         "documentation" : { }
       }, {
-        "id" : "6",
+        "id" : "4",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "serverapplication"
+          "structurizr.dsl.identifier" : "clientrypoint"
         },
-        "name" : "Server Application",
-        "description" : "Runs a server that allows players to connect and play the game",
+        "name" : "CLI Entrypoint",
+        "description" : "Entrypoint to both the server and game client commands",
+        "relationships" : [ {
+          "id" : "7",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "a723568d-88c1-45c1-85a8-9c54a42e25f8"
+          },
+          "sourceId" : "4",
+          "destinationId" : "5"
+        }, {
+          "id" : "8",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3e0afeb0-c866-4929-bc33-a3e0a653c61e"
+          },
+          "sourceId" : "4",
+          "destinationId" : "6"
+        } ],
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -124,7 +124,7 @@
       },
       "softwareSystemId" : "3",
       "dimensions" : {
-        "width" : 1500,
+        "width" : 1560,
         "height" : 1400
       },
       "automaticLayout" : {
@@ -150,15 +150,15 @@
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 199,
+        "x" : 230,
         "y" : 200
       }, {
         "id" : "2",
-        "x" : 899,
+        "x" : 930,
         "y" : 200
       }, {
         "id" : "3",
-        "x" : 524,
+        "x" : 555,
         "y" : 900
       } ],
       "relationships" : [ {
@@ -203,23 +203,23 @@
       "elements" : [ {
         "id" : "1",
         "x" : 269,
-        "y" : 200
+        "y" : 199
       }, {
         "id" : "2",
         "x" : 969,
-        "y" : 200
+        "y" : 199
       }, {
         "id" : "4",
         "x" : 594,
-        "y" : 900
+        "y" : 899
       }, {
         "id" : "5",
         "x" : 219,
-        "y" : 1500
+        "y" : 1499
       }, {
         "id" : "6",
         "x" : 969,
-        "y" : 1500
+        "y" : 1499
       } ],
       "relationships" : [ {
         "id" : "11"

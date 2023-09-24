@@ -4,7 +4,7 @@ workspace "Blight of Yggdrasil" {
         player = person "Player"
         host = person "Host"
 
-        gameSystem = softwareSystem "Blight of Yggdrasil" {
+        gameCliApplication = softwareSystem "Blight of Yggdrasil CLI Application" {
             cliEntrypoint = container "CLI Entrypoint" "Entrypoint to both the server and game client commands"
             clientApplication = container "Game Client Application" "Allows the player to connect to a server and interact with the game"
             serverApplication = container "Server Application" "Runs a server that allows players to connect and play the game"
@@ -18,10 +18,10 @@ workspace "Blight of Yggdrasil" {
     }
 
     views {
-        systemContext gameSystem "SystemContext" {
+        systemContext gameCliApplication "SystemContext" {
             include *
             animation {
-                gameSystem
+                gameCliApplication
                 player
                 host
             }
@@ -31,10 +31,10 @@ workspace "Blight of Yggdrasil" {
             }
         }
 
-        container gameSystem "Containers" {
+        container gameCliApplication "Containers" {
             include *
             animation {
-                player host gameSystem
+                player host gameCliApplication
                 cliEntrypoint
                 clientApplication
                 serverApplication
