@@ -2,10 +2,10 @@
   "id" : 1,
   "name" : "Blight of Yggdrasil",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-24T16:39:36Z",
+  "lastModifiedDate" : "2023-09-24T19:27:19Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJCbGlnaHQgb2YgWWdnZHJhc2lsIiB7CgogICAgbW9kZWwgewogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCgogICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJCbGlnaHQgb2YgWWdnZHJhc2lsIENMSSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICBjbGlFbnRyeXBvaW50ID0gY29udGFpbmVyICJDTEkgRW50cnlwb2ludCIgIkVudHJ5cG9pbnQgdG8gYm90aCB0aGUgc2VydmVyIGFuZCBnYW1lIGNsaWVudCBjb21tYW5kcyIKICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24gPSBjb250YWluZXIgIkdhbWUgQ2xpZW50IEFwcGxpY2F0aW9uIiAiQWxsb3dzIHRoZSBwbGF5ZXIgdG8gY29ubmVjdCB0byBhIHNlcnZlciBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSIKICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNlcnZlciBBcHBsaWNhdGlvbiIgIlJ1bnMgYSBzZXJ2ZXIgdGhhdCBhbGxvd3MgcGxheWVycyB0byBjb25uZWN0IGFuZCBwbGF5IHRoZSBnYW1lIgogICAgICAgIH0KCiAgICAgICAgY2xpRW50cnlwb2ludCAtPiBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgIGNsaUVudHJ5cG9pbnQgLT4gc2VydmVyQXBwbGljYXRpb24KCiAgICAgICAgcGxheWVyIC0+IGNsaUVudHJ5cG9pbnQgIlJ1bnMgZ2FtZSBjbGllbnQgdXNpbmciCiAgICAgICAgaG9zdCAtPiBjbGlFbnRyeXBvaW50ICJSdW5zIGdhbWUgc2VydmVyIHVzaW5nIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWVDbGlBcHBsaWNhdGlvbiAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgcGxheWVyCiAgICAgICAgICAgICAgICBob3N0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgIHN0cnVjdHVyaXpyLmdyb3VwcyBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZ2FtZUNsaUFwcGxpY2F0aW9uICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcGxheWVyIGhvc3QgZ2FtZUNsaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICBjbGlFbnRyeXBvaW50CiAgICAgICAgICAgICAgICBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24KICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
+    "structurizr.dsl" : "d29ya3NwYWNlICJCbGlnaHQgb2YgWWdnZHJhc2lsIiB7CgogICAgbW9kZWwgewogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCgogICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJCbGlnaHQgb2YgWWdnZHJhc2lsIENMSSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICBjbGlFbnRyeXBvaW50ID0gY29udGFpbmVyICJDTEkgRW50cnlwb2ludCIgIkVudHJ5cG9pbnQgdG8gYm90aCB0aGUgc2VydmVyIGFuZCBnYW1lIGNsaWVudCBjb21tYW5kcyIKICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24gPSBjb250YWluZXIgIkdhbWUgQ2xpZW50IEFwcGxpY2F0aW9uIiAiQWxsb3dzIHRoZSBwbGF5ZXIgdG8gY29ubmVjdCB0byBhIHNlcnZlciBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSIKICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNlcnZlciBBcHBsaWNhdGlvbiIgIlJ1bnMgYSBzZXJ2ZXIgdGhhdCBhbGxvd3MgcGxheWVycyB0byBjb25uZWN0IGFuZCBwbGF5IHRoZSBnYW1lIgogICAgICAgIH0KCiAgICAgICAgY2xpRW50cnlwb2ludCAtPiBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgIGNsaUVudHJ5cG9pbnQgLT4gc2VydmVyQXBwbGljYXRpb24KCiAgICAgICAgcGxheWVyIC0+IGNsaUVudHJ5cG9pbnQgIlJ1bnMgZ2FtZSBjbGllbnQgdXNpbmciCiAgICAgICAgaG9zdCAtPiBjbGlFbnRyeXBvaW50ICJSdW5zIGdhbWUgc2VydmVyIHVzaW5nIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWVDbGlBcHBsaWNhdGlvbiAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgcGxheWVyCiAgICAgICAgICAgICAgICBob3N0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgIHN0cnVjdHVyaXpyLmdyb3VwcyBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZ2FtZUNsaUFwcGxpY2F0aW9uICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcGxheWVyIGhvc3QgZ2FtZUNsaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICBjbGlFbnRyeXBvaW50CiAgICAgICAgICAgICAgICBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24KICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIHNoYXBlIHBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKfQo="
   },
   "configuration" : { },
   "model" : {
@@ -26,7 +26,7 @@
         "id" : "9",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "6c42c752-50b6-45de-b820-c6ded9893c05"
+          "structurizr.dsl.identifier" : "b7a0b8ca-4f80-4331-a569-1eb3608cab92"
         },
         "sourceId" : "1",
         "destinationId" : "4",
@@ -41,20 +41,20 @@
       },
       "name" : "Host",
       "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "7c109b1c-cf26-4a62-bf55-228ee1661374"
+        },
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Runs game server using"
+      }, {
         "id" : "12",
         "sourceId" : "2",
         "destinationId" : "3",
         "description" : "Runs game server using",
         "linkedRelationshipId" : "11"
-      }, {
-        "id" : "11",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "749d87d1-a4cc-4600-8491-368e3f77d6d4"
-        },
-        "sourceId" : "2",
-        "destinationId" : "4",
-        "description" : "Runs game server using"
       } ],
       "location" : "Unspecified"
     } ],
@@ -67,30 +67,13 @@
       "name" : "Blight of Yggdrasil CLI Application",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "4",
+        "id" : "6",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "clientrypoint"
+          "structurizr.dsl.identifier" : "serverapplication"
         },
-        "name" : "CLI Entrypoint",
-        "description" : "Entrypoint to both the server and game client commands",
-        "relationships" : [ {
-          "id" : "7",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "76390ffa-6bbd-41f3-8798-08e3130ae421"
-          },
-          "sourceId" : "4",
-          "destinationId" : "5"
-        }, {
-          "id" : "8",
-          "tags" : "Relationship",
-          "properties" : {
-            "structurizr.dsl.identifier" : "34c982ae-400a-4dc0-be27-10fc3faf76e9"
-          },
-          "sourceId" : "4",
-          "destinationId" : "6"
-        } ],
+        "name" : "Server Application",
+        "description" : "Runs a server that allows players to connect and play the game",
         "documentation" : { }
       }, {
         "id" : "5",
@@ -102,13 +85,30 @@
         "description" : "Allows the player to connect to a server and interact with the game",
         "documentation" : { }
       }, {
-        "id" : "6",
+        "id" : "4",
         "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "serverapplication"
+          "structurizr.dsl.identifier" : "clientrypoint"
         },
-        "name" : "Server Application",
-        "description" : "Runs a server that allows players to connect and play the game",
+        "name" : "CLI Entrypoint",
+        "description" : "Entrypoint to both the server and game client commands",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "fd56869e-d287-4fbd-8ab8-9e41e6ed07e8"
+          },
+          "sourceId" : "4",
+          "destinationId" : "6"
+        }, {
+          "id" : "7",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "65e8f568-45e5-469b-b726-c671b946c784"
+          },
+          "sourceId" : "4",
+          "destinationId" : "5"
+        } ],
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -123,9 +123,10 @@
         "structurizr.groups" : "false"
       },
       "softwareSystemId" : "3",
+      "paperSize" : "A5_Landscape",
       "dimensions" : {
-        "width" : 1560,
-        "height" : 1400
+        "width" : 1516,
+        "height" : 1416
       },
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -150,16 +151,16 @@
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 229,
-        "y" : 199
+        "x" : 208,
+        "y" : 208
       }, {
         "id" : "2",
-        "x" : 929,
-        "y" : 199
+        "x" : 908,
+        "y" : 208
       }, {
         "id" : "3",
-        "x" : 554,
-        "y" : 899
+        "x" : 533,
+        "y" : 908
       } ],
       "relationships" : [ {
         "id" : "12"
@@ -203,23 +204,23 @@
       "elements" : [ {
         "id" : "1",
         "x" : 269,
-        "y" : 200
+        "y" : 199
       }, {
         "id" : "2",
         "x" : 969,
-        "y" : 200
+        "y" : 199
       }, {
         "id" : "4",
         "x" : 594,
-        "y" : 900
+        "y" : 899
       }, {
         "id" : "5",
         "x" : 219,
-        "y" : 1500
+        "y" : 1499
       }, {
         "id" : "6",
         "x" : 969,
-        "y" : 1500
+        "y" : 1499
       } ],
       "relationships" : [ {
         "id" : "11"
@@ -249,7 +250,7 @@
       },
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "SystemContext"
+      "lastSavedView" : "Containers"
     }
   }
 }
