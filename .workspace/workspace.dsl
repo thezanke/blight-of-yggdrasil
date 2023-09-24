@@ -2,20 +2,43 @@ workspace "Blight of Yggdrasil" {
 
     model {
         player = person "Player"
+        host = person "Host"
 
         gameSystem = softwareSystem "Blight of Yggdrasil" {
-            cliEntrypoint container "CLI Entrypoint" "Entrypoint to both the server and game client commands"
-            clientApplication container "Game Client Application" "Allows the player to connect to a server and interact with the game"
-            serv nt -> clientApplication
+            cliEntrypoint = container "CLI Entrypoint" "Entrypoint to both the server and game client commands"
+            clientApplication = container "Game Client Application" "Allows the player to connect to a server and interact with the game"
+            serverApplication = container "Server Application" "Runs a server that allows players to connect and play the game"
+        }
+
+        cliEntrypoint -> clientApplication
         cliEntrypoint -> serverApplication
 
-        player -> clientApplication "Runs game client using"
-        host -> serverApplication "Runs game client using"
+        player -> cliEntrypoint "Runs game client using"
+        host -> cliEntrypoint "Runs game server using"
     }
 
     views {
-        systemContext softwareSystem "Diagram1" {
+        systemContext gameSystem "SystemContext" {
             include *
+            animation {
+                gameSystem
+                player
+                host
+            }
+            autoLayout
+            properties {
+                structurizr.groups false
+            }
+        }
+
+        container gameSystem "Containers" {
+            include *
+            animation {
+                player host gameSystem
+                cliEntrypoint
+                clientApplication
+                serverApplication
+            }
             autoLayout
         }
 
@@ -24,10 +47,12 @@ workspace "Blight of Yggdrasil" {
                 background #1168bd
                 color #ffffff
             }
-            element "Person" {
-                shape person
+            element "Container" {
                 background #08427b
                 color #ffffff
+            }
+            element "Person" {
+                shape person
             }
         }
     }

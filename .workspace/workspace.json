@@ -1,74 +1,114 @@
 {
   "id" : 1,
-  "name" : "Name",
+  "name" : "Blight of Yggdrasil",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-24T15:10:38Z",
+  "lastModifiedDate" : "2023-09-24T15:53:16Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc29mdHdhcmVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiWWdnZHJhc2lsIENMSSIgewogICAgICAgICAgICBzZXJ2ZXIgPSBjb250YWluZXIgIlNlcnZlciIgewogICAgICAgICAgICAgICAgdGFncyAiU2VydmVyIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGNsaWVudCA9IGNvbnRhaW5lciAiQ2xpZW50IiB7CiAgICAgICAgICAgICAgICB0YWdzICJDbGllbnQiCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCiAgICAgICAgaG9zdCAtPiBzb2Z0d2FyZVN5c3RlbSAiUnVucyBzZXJ2ZXIgdXNpbmciCgogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIHBsYXllciAtPiBzb2Z0d2FyZVN5c3RlbSAiUnVucyBnYW1lIGNsaWVudCB1c2luZyIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBzb2Z0d2FyZVN5c3RlbSAiRGlhZ3JhbTEiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlICJCbGlnaHQgb2YgWWdnZHJhc2lsIiB7CgogICAgbW9kZWwgewogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCgogICAgICAgIGdhbWVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQmxpZ2h0IG9mIFlnZ2RyYXNpbCIgewogICAgICAgICAgICBjbGlFbnRyeXBvaW50ID0gY29udGFpbmVyICJDTEkgRW50cnlwb2ludCIgIkVudHJ5cG9pbnQgdG8gYm90aCB0aGUgc2VydmVyIGFuZCBnYW1lIGNsaWVudCBjb21tYW5kcyIKICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24gPSBjb250YWluZXIgIkdhbWUgQ2xpZW50IEFwcGxpY2F0aW9uIiAiQWxsb3dzIHRoZSBwbGF5ZXIgdG8gY29ubmVjdCB0byBhIHNlcnZlciBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSIKICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNlcnZlciBBcHBsaWNhdGlvbiIgIlJ1bnMgYSBzZXJ2ZXIgdGhhdCBhbGxvd3MgcGxheWVycyB0byBjb25uZWN0IGFuZCBwbGF5IHRoZSBnYW1lIgogICAgICAgIH0KCiAgICAgICAgY2xpRW50cnlwb2ludCAtPiBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgIGNsaUVudHJ5cG9pbnQgLT4gc2VydmVyQXBwbGljYXRpb24KCiAgICAgICAgcGxheWVyIC0+IGNsaUVudHJ5cG9pbnQgIlJ1bnMgZ2FtZSBjbGllbnQgdXNpbmciCiAgICAgICAgaG9zdCAtPiBjbGlFbnRyeXBvaW50ICJSdW5zIGdhbWUgc2VydmVyIHVzaW5nIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWVTeXN0ZW0gIlN5c3RlbUNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBnYW1lU3lzdGVtCiAgICAgICAgICAgICAgICBwbGF5ZXIKICAgICAgICAgICAgICAgIGhvc3QKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIHByb3BlcnRpZXMgewogICAgICAgICAgICAgICAgc3RydWN0dXJpenIuZ3JvdXBzIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBnYW1lU3lzdGVtICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcGxheWVyIGhvc3QgZ2FtZVN5c3RlbQogICAgICAgICAgICAgICAgY2xpRW50cnlwb2ludAogICAgICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24KICAgICAgICAgICAgICAgIHNlcnZlckFwcGxpY2F0aW9uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgcGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "6",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "player"
-      },
-      "name" : "Player",
-      "relationships" : [ {
-        "id" : "7",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "62c2909d-1ef7-4b37-b218-f0464fb28383"
-        },
-        "sourceId" : "6",
-        "destinationId" : "1",
-        "description" : "Runs game client using"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "4",
+      "id" : "2",
       "tags" : "Element,Person",
       "properties" : {
         "structurizr.dsl.identifier" : "host"
       },
       "name" : "Host",
       "relationships" : [ {
-        "id" : "5",
+        "id" : "11",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "22a12073-69ec-48fd-9dae-f463d5f5a634"
+          "structurizr.dsl.identifier" : "70fa14f5-2a97-4532-a6c6-db608b14aac1"
         },
-        "sourceId" : "4",
-        "destinationId" : "1",
-        "description" : "Runs server using"
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Runs game server using"
+      }, {
+        "id" : "12",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Runs game server using",
+        "linkedRelationshipId" : "11"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "player"
+      },
+      "name" : "Player",
+      "relationships" : [ {
+        "id" : "9",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "61c81650-50b6-4681-a7ad-3f45a07aaeb4"
+        },
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Runs game client using"
+      }, {
+        "id" : "10",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Runs game client using",
+        "linkedRelationshipId" : "9"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
-      "id" : "1",
+      "id" : "3",
       "tags" : "Element,Software System",
       "properties" : {
-        "structurizr.dsl.identifier" : "softwaresystem"
+        "structurizr.dsl.identifier" : "gamesystem"
       },
-      "name" : "Yggdrasil CLI",
+      "name" : "Blight of Yggdrasil",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "3",
-        "tags" : "Element,Container,Client",
+        "id" : "4",
+        "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "client"
+          "structurizr.dsl.identifier" : "clientrypoint"
         },
-        "name" : "Client",
+        "name" : "CLI Entrypoint",
+        "description" : "Entrypoint to both the server and game client commands",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0330406b-317c-49f2-8ca3-723d6046036f"
+          },
+          "sourceId" : "4",
+          "destinationId" : "6"
+        }, {
+          "id" : "7",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "32314dfd-a742-4b23-bb8b-9c1154d26b47"
+          },
+          "sourceId" : "4",
+          "destinationId" : "5"
+        } ],
         "documentation" : { }
       }, {
-        "id" : "2",
-        "tags" : "Element,Container,Server",
+        "id" : "5",
+        "tags" : "Element,Container",
         "properties" : {
-          "structurizr.dsl.identifier" : "server"
+          "structurizr.dsl.identifier" : "clientapplication"
         },
-        "name" : "Server",
+        "name" : "Game Client Application",
+        "description" : "Allows the player to connect to a server and interact with the game",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "serverapplication"
+        },
+        "name" : "Server Application",
+        "description" : "Runs a server that allows players to connect and play the game",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -77,9 +117,12 @@
   "documentation" : { },
   "views" : {
     "systemContextViews" : [ {
-      "key" : "Diagram1",
+      "key" : "SystemContext",
       "order" : 1,
-      "softwareSystemId" : "1",
+      "properties" : {
+        "structurizr.groups" : "false"
+      },
+      "softwareSystemId" : "3",
       "dimensions" : {
         "width" : 1500,
         "height" : 1400
@@ -92,24 +135,100 @@
         "edgeSeparation" : 0,
         "vertices" : false
       },
-      "enterpriseBoundaryVisible" : true,
-      "relationships" : [ {
-        "id" : "5"
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "3" ]
       }, {
-        "id" : "7"
+        "order" : 2,
+        "elements" : [ "1" ],
+        "relationships" : [ "10" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "2" ],
+        "relationships" : [ "12" ]
       } ],
+      "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 525,
-        "y" : 899
+        "x" : 199,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 899,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 524,
+        "y" : 900
+      } ],
+      "relationships" : [ {
+        "id" : "12"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 1640,
+        "height" : 2091
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "1", "2" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "4" ],
+        "relationships" : [ "11", "9" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "5" ],
+        "relationships" : [ "7" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "6" ],
+        "relationships" : [ "8" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 269,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 969,
+        "y" : 200
       }, {
         "id" : "4",
-        "x" : 200,
-        "y" : 199
+        "x" : 594,
+        "y" : 900
+      }, {
+        "id" : "5",
+        "x" : 219,
+        "y" : 1500
       }, {
         "id" : "6",
-        "x" : 900,
-        "y" : 199
+        "x" : 969,
+        "y" : 1500
+      } ],
+      "relationships" : [ {
+        "id" : "11"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "9"
       } ]
     } ],
     "configuration" : {
@@ -120,15 +239,17 @@
           "background" : "#1168bd",
           "color" : "#ffffff"
         }, {
-          "tag" : "Person",
+          "tag" : "Container",
           "background" : "#08427b",
-          "color" : "#ffffff",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Person",
           "shape" : "Person"
         } ]
       },
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "Diagram1"
+      "lastSavedView" : "Containers"
     }
   }
 }
