@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Blight of Yggdrasil",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-24T15:55:51Z",
+  "lastModifiedDate" : "2023-09-24T16:39:36Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJCbGlnaHQgb2YgWWdnZHJhc2lsIiB7CgogICAgbW9kZWwgewogICAgICAgIHBsYXllciA9IHBlcnNvbiAiUGxheWVyIgogICAgICAgIGhvc3QgPSBwZXJzb24gIkhvc3QiCgogICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbiA9IHNvZnR3YXJlU3lzdGVtICJCbGlnaHQgb2YgWWdnZHJhc2lsIENMSSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICBjbGlFbnRyeXBvaW50ID0gY29udGFpbmVyICJDTEkgRW50cnlwb2ludCIgIkVudHJ5cG9pbnQgdG8gYm90aCB0aGUgc2VydmVyIGFuZCBnYW1lIGNsaWVudCBjb21tYW5kcyIKICAgICAgICAgICAgY2xpZW50QXBwbGljYXRpb24gPSBjb250YWluZXIgIkdhbWUgQ2xpZW50IEFwcGxpY2F0aW9uIiAiQWxsb3dzIHRoZSBwbGF5ZXIgdG8gY29ubmVjdCB0byBhIHNlcnZlciBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgZ2FtZSIKICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNlcnZlciBBcHBsaWNhdGlvbiIgIlJ1bnMgYSBzZXJ2ZXIgdGhhdCBhbGxvd3MgcGxheWVycyB0byBjb25uZWN0IGFuZCBwbGF5IHRoZSBnYW1lIgogICAgICAgIH0KCiAgICAgICAgY2xpRW50cnlwb2ludCAtPiBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgIGNsaUVudHJ5cG9pbnQgLT4gc2VydmVyQXBwbGljYXRpb24KCiAgICAgICAgcGxheWVyIC0+IGNsaUVudHJ5cG9pbnQgIlJ1bnMgZ2FtZSBjbGllbnQgdXNpbmciCiAgICAgICAgaG9zdCAtPiBjbGlFbnRyeXBvaW50ICJSdW5zIGdhbWUgc2VydmVyIHVzaW5nIgogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGdhbWVDbGlBcHBsaWNhdGlvbiAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGdhbWVDbGlBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgcGxheWVyCiAgICAgICAgICAgICAgICBob3N0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICBwcm9wZXJ0aWVzIHsKICAgICAgICAgICAgICAgIHN0cnVjdHVyaXpyLmdyb3VwcyBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZ2FtZUNsaUFwcGxpY2F0aW9uICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcGxheWVyIGhvc3QgZ2FtZUNsaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICBjbGlFbnRyeXBvaW50CiAgICAgICAgICAgICAgICBjbGllbnRBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgc2VydmVyQXBwbGljYXRpb24KICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCn0K"
@@ -17,20 +17,20 @@
       },
       "name" : "Player",
       "relationships" : [ {
-        "id" : "9",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "cc301514-5218-4aae-bb8f-7e1156c80f8c"
-        },
-        "sourceId" : "1",
-        "destinationId" : "4",
-        "description" : "Runs game client using"
-      }, {
         "id" : "10",
         "sourceId" : "1",
         "destinationId" : "3",
         "description" : "Runs game client using",
         "linkedRelationshipId" : "9"
+      }, {
+        "id" : "9",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "6c42c752-50b6-45de-b820-c6ded9893c05"
+        },
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Runs game client using"
       } ],
       "location" : "Unspecified"
     }, {
@@ -41,20 +41,20 @@
       },
       "name" : "Host",
       "relationships" : [ {
-        "id" : "11",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "89bf3155-7ba7-494b-921e-fe847bdfcc1b"
-        },
-        "sourceId" : "2",
-        "destinationId" : "4",
-        "description" : "Runs game server using"
-      }, {
         "id" : "12",
         "sourceId" : "2",
         "destinationId" : "3",
         "description" : "Runs game server using",
         "linkedRelationshipId" : "11"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "749d87d1-a4cc-4600-8491-368e3f77d6d4"
+        },
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Runs game server using"
       } ],
       "location" : "Unspecified"
     } ],
@@ -67,24 +67,6 @@
       "name" : "Blight of Yggdrasil CLI Application",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "6",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "serverapplication"
-        },
-        "name" : "Server Application",
-        "description" : "Runs a server that allows players to connect and play the game",
-        "documentation" : { }
-      }, {
-        "id" : "5",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "clientapplication"
-        },
-        "name" : "Game Client Application",
-        "description" : "Allows the player to connect to a server and interact with the game",
-        "documentation" : { }
-      }, {
         "id" : "4",
         "tags" : "Element,Container",
         "properties" : {
@@ -96,7 +78,7 @@
           "id" : "7",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "a723568d-88c1-45c1-85a8-9c54a42e25f8"
+            "structurizr.dsl.identifier" : "76390ffa-6bbd-41f3-8798-08e3130ae421"
           },
           "sourceId" : "4",
           "destinationId" : "5"
@@ -104,11 +86,29 @@
           "id" : "8",
           "tags" : "Relationship",
           "properties" : {
-            "structurizr.dsl.identifier" : "3e0afeb0-c866-4929-bc33-a3e0a653c61e"
+            "structurizr.dsl.identifier" : "34c982ae-400a-4dc0-be27-10fc3faf76e9"
           },
           "sourceId" : "4",
           "destinationId" : "6"
         } ],
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "clientapplication"
+        },
+        "name" : "Game Client Application",
+        "description" : "Allows the player to connect to a server and interact with the game",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "serverapplication"
+        },
+        "name" : "Server Application",
+        "description" : "Runs a server that allows players to connect and play the game",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -150,16 +150,16 @@
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 230,
-        "y" : 200
+        "x" : 229,
+        "y" : 199
       }, {
         "id" : "2",
-        "x" : 930,
-        "y" : 200
+        "x" : 929,
+        "y" : 199
       }, {
         "id" : "3",
-        "x" : 555,
-        "y" : 900
+        "x" : 554,
+        "y" : 899
       } ],
       "relationships" : [ {
         "id" : "12"
@@ -203,23 +203,23 @@
       "elements" : [ {
         "id" : "1",
         "x" : 269,
-        "y" : 199
+        "y" : 200
       }, {
         "id" : "2",
         "x" : 969,
-        "y" : 199
+        "y" : 200
       }, {
         "id" : "4",
         "x" : 594,
-        "y" : 899
+        "y" : 900
       }, {
         "id" : "5",
         "x" : 219,
-        "y" : 1499
+        "y" : 1500
       }, {
         "id" : "6",
         "x" : 969,
-        "y" : 1499
+        "y" : 1500
       } ],
       "relationships" : [ {
         "id" : "11"
@@ -249,7 +249,7 @@
       },
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "Containers"
+      "lastSavedView" : "SystemContext"
     }
   }
 }
