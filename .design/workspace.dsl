@@ -44,17 +44,18 @@ workspace "Blight of Yggdrasil" {
 
         styles {
             element "Software System" {
-                background #1168bd
+                background #1b4965
                 color #ffffff
             }
 
             element "Container" {
-                background #08427b
+                background #5fa8d3
                 color #ffffff
             }
 
             element "Person" {
                 shape person
+                background #cae9ff
             }
         }
     }
