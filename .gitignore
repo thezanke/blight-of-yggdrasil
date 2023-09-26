@@ -2,5 +2,6 @@ __pycache__
 .env
 *.ignore*
 *.log
-.structurizr
-structurizr.properties
+.design/*
+!.design/structurizr.properties-example
+!.design/workspace.dsl
