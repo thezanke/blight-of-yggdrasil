@@ -47,10 +47,12 @@ workspace "Blight of Yggdrasil" {
                 background #1168bd
                 color #ffffff
             }
+
             element "Container" {
                 background #08427b
                 color #ffffff
             }
+
             element "Person" {
                 shape person
             }
