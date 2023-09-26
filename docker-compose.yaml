@@ -5,4 +5,4 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./design:/usr/local/structurizr
+      - ./.design:/usr/local/structurizr

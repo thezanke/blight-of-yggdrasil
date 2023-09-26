@@ -3,3 +3,4 @@ __pycache__
 *.ignore*
 *.log
 .structurizr
+structurizr.properties
