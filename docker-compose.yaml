@@ -1,8 +1,11 @@
 version: '3'
 services:
-  structurizr:
+  design:
     image: structurizr/lite
+    restart: no
     ports:
       - "8080:8080"
     volumes:
       - ./.design:/usr/local/structurizr
+    profiles:
+      - design
