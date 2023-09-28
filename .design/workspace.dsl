@@ -1,5 +1,4 @@
 workspace "Blight of Yggdrasil" {
-
     model {
         player = person "Player"
         host = person "Host"
@@ -60,4 +59,10 @@ workspace "Blight of Yggdrasil" {
         }
     }
 
+    configuration {
+        users {
+            read-blight-designs read
+            write-blight-designs write
+        }
+    }
 }

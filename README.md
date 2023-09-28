@@ -47,7 +47,7 @@ Structurizr `.dsl` files are located in `.design/`; visit https://structurizr.co
 To view the designs in structurizr-lite, run the following command:
 
 ```bash
-docker compose run design
+docker compose run --service-ports design
 ```
 
 Once started, open a browser and navigate to http://localhost:8080
