@@ -5,4 +5,4 @@ __pycache__
 .design/*
 !.design/structurizr.properties-example
 !.design/workspace.dsl
-!.design/**/
+!.design/docs
