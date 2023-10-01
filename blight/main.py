@@ -1,7 +1,7 @@
 import argparse
 import logging
-import blight.server.cli
-import blight.client.cli
+import blight.server
+import blight.client
 
 
 def configure_logging(args):
@@ -17,17 +17,13 @@ def main():
     parser.set_defaults(command="client")
 
     subparsers = parser.add_subparsers(dest="command")
-    blight.server.cli.attach_subparser(subparsers)
-    blight.client.cli.attach_subparser(subparsers)
+    blight.server.attach_subparser(subparsers)
+    blight.client.attach_subparser(subparsers)
 
     args = parser.parse_args()
-    configure_logging(args)
 
     if "func" in args:
+        configure_logging(args)
         args.func(args)
     else:
         parser.print_help()
-
-
-if __name__ == "__main__":
-    main()

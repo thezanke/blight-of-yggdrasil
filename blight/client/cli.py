@@ -1,21 +1,21 @@
 import asyncio
-from blight.client.net import ClientConnectionManager
-from blight.client.ui import UiManager
+import curses
 from blight.logging import add_log_level_arg
+from .net import ClientConnectionManager
+from .state import StateManager
+from .ui import InterfaceManager
 
 
-async def run_all(args):
-    conn_manager = ClientConnectionManager()
-    ui_manager = UiManager()
-
-    # Dependency injection
-    ui_manager.register_services(conn_manager)
-
-    await asyncio.gather(conn_manager.run(args.host, args.port), ui_manager.run())
+def run_all(args):
+    game_state = StateManager()
+    conn = ClientConnectionManager(game_state)
+    ui = InterfaceManager(game_state, conn.send_message)
+    
+    curses.wrapper(ui.run)
 
 
 def start_play(args):
-    asyncio.run(run_all(args))
+    run_all(args)
 
 
 def attach_subparser(base):
