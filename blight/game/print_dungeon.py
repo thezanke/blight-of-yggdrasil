@@ -1,6 +1,7 @@
+import random
 from termcolor import colored
 from .copy_dungeon import copy_dungeon
-from .generate_dungeon import FLOOR, WALL
+from .generate_dungeon import Tile
 
 CLEAR_SCREEN = "\033c"
 
@@ -13,7 +14,23 @@ COLORS = {
     "cyan": 36,
 }
 
-import random
+TILE_TEXT_MAP = {
+    Tile.FLOOR: " ",
+    Tile.WALL: "▓",
+    Tile.PWALL: "#",
+}
+
+TILE_COLOR_MAP = {
+    Tile.FLOOR: "black",
+    Tile.WALL: "dark_grey",
+    Tile.PWALL: "white",
+}
+
+TILE_ON_COLOR_MAP = {
+    Tile.FLOOR: "on_black",
+    Tile.WALL: "on_black",
+    Tile.PWALL: "on_black",
+}
 
 
 def determine_player_colors(num_players):
@@ -29,14 +46,16 @@ def determine_player_colors(num_players):
     return available_colors[:num_players]
 
 
-
-def print_cell(tile):
-    if tile == FLOOR:
-        return colored(" ")
-    elif tile == WALL:
-        return colored("█", "dark_grey")
+def print_cell(cell: Tile | str):
+    if isinstance(cell, Tile):
+        return colored(
+            text=TILE_TEXT_MAP[cell],
+            color=TILE_COLOR_MAP[cell],
+            on_color=TILE_ON_COLOR_MAP[cell],
+        )
     else:
-        return tile
+        return cell
+
 
 def print_dungeon(dungeon=[], starts=None):
     # print(CLEAR_SCREEN)
@@ -49,8 +68,13 @@ def print_dungeon(dungeon=[], starts=None):
     player_num = 1
     for i, (x, y) in enumerate(starts):
         color = colors[i]
-        print(colored(f"  - player_{player_num} ({color})", color, attrs=["bold"]))
-        copy[y][x] = colored("𓀠", color, attrs=["bold"])
+        print(
+            colored(
+                f"  - player_{player_num} ({color})",
+                color,
+            )
+        )
+        copy[y][x] = colored("@", color, on_color=TILE_ON_COLOR_MAP[Tile.FLOOR])
         player_num += 1
 
     dungeon_str = "\n".join("".join(print_cell(cell) for cell in row) for row in copy)

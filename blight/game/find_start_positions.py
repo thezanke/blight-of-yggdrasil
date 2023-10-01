@@ -1,6 +1,6 @@
 from random import choice
 from blight.math_utils import distance
-from .generate_dungeon import FLOOR
+from .generate_dungeon import Tile
 
 
 def find_start_positions(dungeon, n):
@@ -9,7 +9,7 @@ def find_start_positions(dungeon, n):
         (x, y)
         for y, row in enumerate(dungeon)
         for x, cell in enumerate(row)
-        if cell == FLOOR
+        if cell == Tile.FLOOR
     ]
 
     # Initialize list for starting positions
