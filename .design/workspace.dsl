@@ -1,4 +1,6 @@
 workspace "Blight of Yggdrasil" {
+    !docs docs
+
     model {
         player = person "Player"
         host = person "Host"
