@@ -1,4 +1,3 @@
-import asyncio
 import curses
 from blight.logging import add_log_level_arg
 from .net import ClientConnectionManager
@@ -6,16 +5,16 @@ from .state import StateManager
 from .ui import InterfaceManager
 
 
-def run_all(args):
+def run_all(stdscr, args):
+    print(args)
     game_state = StateManager()
     conn = ClientConnectionManager(game_state)
     ui = InterfaceManager(game_state, conn.send_message)
-    
-    curses.wrapper(ui.run)
+    ui.run(stdscr)
 
 
 def start_play(args):
-    run_all(args)
+    curses.wrapper(run_all, args)
 
 
 def attach_subparser(base):

@@ -7,33 +7,46 @@ class InterfaceManager:
         self.send_message = send_message
 
     def run(self, stdscr):
-        # Initialize curses environment
-        curses.noecho()
-        curses.cbreak()
-        stdscr.keypad(True)
+        input_buffer = ""
+        messages = []
 
         try:
             while True:
-                stdscr.clear()
+                # Display data at the top
+                stdscr.move(0, 0)
                 data = self.game_state.read_data()
-                stdscr.addstr(0, 0, data)
-                stdscr.refresh()
+                stdscr.addstr(data)
                 
-                
-                # Capture user input
-                user_input = stdscr.getstr(1, 0).decode('utf-8')
-                
-                # Clear the current input line
-                stdscr.deleteln()
-        
-                # Check for quit command
-                if user_input.lower() == 'q':
-                    break
+                # Display past messages
+                for i, msg in enumerate(messages):
+                    stdscr.move(i + 1, 0)
+                    stdscr.clrtoeol()
+                    stdscr.addstr(f"you: {msg}")
 
-                # Display user input
-                stdscr.addstr(2, 0, f"You entered: {user_input}      ")  # Extra spaces to clear previous text
-                stdscr.refresh()
+                # Text prompt and current input
+                stdscr.move(len(messages) + 1, 0)
+                stdscr.clrtoeol()
+                stdscr.addstr(f"> {input_buffer}")
                 
+                c = stdscr.getch()
+                
+                if c == 3:  # Ctrl+C
+                    break
+                elif c == 10:  # Enter key
+                    if input_buffer:
+                        messages.append(input_buffer)
+                    input_buffer = ""
+                    
+                    # Check for quit command
+                    if input_buffer.lower() == 'q':
+                        break
+                elif c >= 32 and c <= 126:  # Printable characters
+                    input_buffer += chr(c)
+
+                stdscr.refresh()
+
+        except KeyboardInterrupt:
+            pass
         finally:
             # Cleanup
             curses.endwin()
