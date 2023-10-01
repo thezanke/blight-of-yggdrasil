@@ -20,4 +20,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 blight = "blight.__main__:main"
-designer = "docker compose run structurizr"
