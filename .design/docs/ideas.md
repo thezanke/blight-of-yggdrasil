@@ -8,7 +8,7 @@
 
 ### World
 
-- Destructable environment
+- Destructable environment? Takes a few hits to break a wall tile, etc.
 - Procedurally generated dungeons/levels
 - Example screenshot:
     ![Rough first pass at generation (thanks ChatGPT!)](./example-map.png)
